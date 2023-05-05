@@ -11,6 +11,6 @@ public class Main {
         //5. Сделать так, чтобы нижний sout выводил true. Для этого используйте логические операторы вместо ...
         System.out.println(true || false);
         //6. Сделать так, чтобы нижний sout выводил false. Для этого используйте логические операторы вместо ...
-        System.out.println(true == false);
+        System.out.println(true && false);
     }
 }
