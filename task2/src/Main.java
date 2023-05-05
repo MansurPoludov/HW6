@@ -19,7 +19,10 @@ public class Main {
         //todo дописать логику программы ниже.
 
 
-
+   greatest = first > second && first > third ? first : second > third ? second : third;
+   smallest = first < second && first < third ? first : second < third ? second : third ;
+   average = (first > second && first < third) || (first < second && first > third)? first:
+           (second > first && second < third) || (second < first && second > third) ? second : third ;
 
 
 
@@ -27,8 +30,8 @@ public class Main {
         //todo
 
 
-        System.out.println("Наибольший вес: " + 10);
-        System.out.println("Средний вес: " + 9);
-        System.out.println("Наименьший вес: " + 1);
+        System.out.println("Наибольший вес: " + greatest);
+        System.out.println("Средний вес: " + average);
+        System.out.println("Наименьший вес: " + smallest);
     }
 }
